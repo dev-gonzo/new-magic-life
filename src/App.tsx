@@ -1,10 +1,13 @@
+import { useMatchManager } from "./storage/useMatchManager";
 
 function App() {
-  return (
-    <>
-      <h1 className="h-1 text-red-900">AA</h1>
-    </>
-  );
+   const { matchHash } = useMatchManager();
+   return (
+      <div>
+         <h1 className="font-audiowide h-1 text-red-900">{matchHash}</h1>
+ 
+      </div>
+   );
 }
 
 export default App;
