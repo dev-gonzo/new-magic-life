@@ -1,4 +1,4 @@
-import { LifeMaker } from './lifeMarker';
+import { LifeMaker } from '../lifeMarker';
 
 export const IndividualPlayer = () => {
    return (

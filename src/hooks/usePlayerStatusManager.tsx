@@ -3,7 +3,7 @@ import { PlayerCounter } from '../@types';
 
 export const usePlayerStatusManager = () => {
    const [counter, setCounter] = useState<PlayerCounter>({
-      life: 0,
+      life: 20,
       poison: 0,
       energy: 0,
       taxCommander: 0,
