@@ -6,7 +6,7 @@ export type PlayerCounter = {
    rad: number;
    monarch: boolean;
    citysBlessing: boolean;
-   commanderDamage: CommanderDamage;
+   commanderDamage?: CommanderDamage;
    death: boolean;
 };
 

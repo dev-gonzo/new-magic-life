@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { IndividualPlayer } from './individualPlayer';
 import { isMobile } from 'react-device-detect';
+import { IndividualPlayer } from './individualPlayer';
 
 export const FivePlayers: React.FC = () => {
    const col3Ref = useRef<HTMLDivElement | null>(null);

@@ -1,9 +1,9 @@
-import { TwoPlayers } from "./twoPlayers";
+import { SixPlayers } from "./sixPlayers";
 
 export const GridPlayers = () => {
    return (
       <>
-         <TwoPlayers />
+         <SixPlayers />
       </>
    );
 };

@@ -1,13 +1,11 @@
+import { LifeMaker } from './lifeMarker';
+
 export const IndividualPlayer = () => {
    return (
       <>
-         <p>
-            <>{`->`}</>
-            </p>
-         <p>
-
-         10
-         </p>
+         <div className='flex justify-center items-center h-full w-full bg-slate-500 '>
+            <LifeMaker />
+         </div>
       </>
    );
 };
